@@ -7,7 +7,7 @@
 
 视频地址：
 
-[![10 minutes fly](https://i9.ytimg.com/vi/WINXNeTMulU/mqdefault.jpg?time=1614142200000&sqp=CPi114EG&rs=AOn4CLDFGb0pPP5nN_prsPUFQHSzvrnprQ)](https://youtu.be/WINXNeTMulU "youtube")
+[![10 minutes fly](./Resources/02-cover.png)](https://youtu.be/WINXNeTMulU "youtube")
 
 ### Calendar
 - 订阅日历
