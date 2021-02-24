@@ -1,0 +1,11 @@
+{ 
+    "gitbook": ">=3.2.3",
+    "description": "这只是一个手稿",
+    "language": "zh-hans",
+    "styles": {
+        "website": "assets/continuum/cp.css"
+    },
+    "theme-default": {
+        "showLevel": true
+    }
+}
