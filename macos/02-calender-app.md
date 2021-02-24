@@ -5,6 +5,10 @@
 - Itsycal 免费 [官网](https://www.mowglii.com/itsycal/)
 
 
+视频地址：
+
+[![10 minutes fly](https://i9.ytimg.com/vi/WINXNeTMulU/mqdefault.jpg?time=1614142200000&sqp=CPi114EG&rs=AOn4CLDFGb0pPP5nN_prsPUFQHSzvrnprQ)](https://youtu.be/WINXNeTMulU "youtube")
+
 ### Calendar
 - 订阅日历
 - 中国节假日 https://p10-calendars.icloud.com/holiday/CN_zh.ics
