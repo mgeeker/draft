@@ -7,5 +7,19 @@
     },
     "theme-default": {
         "showLevel": true
+    },
+    "plugins": [
+        "analytics",
+        "page-treeview"
+    ],
+    "pluginsConfig": {
+        "analytics": {
+            "google": "263527590"
+        },
+        "page-treeview": {
+			"copyright": "Copyright &#169; aleen42",
+			"minHeaderCount": "2",
+			"minHeaderDeep": "2"
+		}
     }
 }
