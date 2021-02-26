@@ -9,12 +9,12 @@
         "showLevel": true
     },
     "plugins": [
-        "analytics",
+        "gtag",
         "page-treeview"
     ],
     "pluginsConfig": {
-        "analytics": {
-            "google": "G-7713C0WZEV"
+        "gtag": {
+            "token": "G-7713C0WZEV"
         },
         "page-treeview": {
 			"copyright": "Copyright &#169; aleen42",
