@@ -2,9 +2,8 @@
 
 ### 视频
 
-{% video %}https://www.youtube.com/watch?v=jSErmsLlRA0{% endvideo %}
-
-不能看Y站请移步[B站](https://www.bilibili.com/video/BV1xp4y1H7Ws/)
+ - [Youtube - 安装黑苹果教程](https://www.youtube.com/watch?v=jSErmsLlRA0)
+ - 不能看Y站请移步[B站](https://www.bilibili.com/video/BV1xp4y1H7Ws/)
 
 FEI文件在这里 [https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K](https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K)
 

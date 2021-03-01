@@ -6,10 +6,8 @@
 
 
 视频地址：
-
-{% video %}https://www.youtube.com/watch?v=WINXNeTMulU{% endvideo %}
-
-不能看Y站的请移步[B站](https://www.bilibili.com/video/BV1iy4y1h7R6/)
+  - [Youtube - MAC日历软件的介绍和选择](https://www.youtube.com/watch?v=WINXNeTMulU)
+  - 不能看Y站的请移步[B站](https://www.bilibili.com/video/BV1iy4y1h7R6/)
 
 ### Calendar
 - 订阅日历
