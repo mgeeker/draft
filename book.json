@@ -14,7 +14,9 @@
         "expandable-chapters",
         "theme-comscore",
         "video",
-        "chinese-video"
+        "chinese-video",
+        "flexible-alerts",
+        "code"    
     ],
     "pluginsConfig": {
         "gtag": {
@@ -24,6 +26,11 @@
 			"copyright": "Copyright &#169; aleen42",
 			"minHeaderCount": "2",
 			"minHeaderDeep": "2"
-		}
+		},
+        "pluginsConfig": {
+            "code": {
+                "copyButtons": true
+            }
+        }
     }
 }
