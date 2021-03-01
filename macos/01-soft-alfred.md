@@ -2,6 +2,6 @@
 
 已经录完了，就不写了
 
-[![alfred](./Resources/01-cover.png)](https://youtu.be/WvWMqYsz3so "youtube")
+{% video %} https://www.youtube.com/watch?v=WvWMqYsz3so {% endvideo %}
 
 不能看Y站的请移步[B站](https://www.bilibili.com/video/BV1io4y197g5/)

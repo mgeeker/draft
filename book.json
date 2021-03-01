@@ -12,7 +12,8 @@
         "gtag",
         "page-treeview",
         "expandable-chapters",
-        "theme-comscore"
+        "theme-comscore",
+        "video"
     ],
     "pluginsConfig": {
         "gtag": {

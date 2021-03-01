@@ -7,7 +7,7 @@
 
 视频地址：
 
-[![10 minutes fly](./Resources/02-cover.png)](https://youtu.be/WINXNeTMulU "youtube")
+{% video %}https://www.youtube.com/watch?v=WINXNeTMulU{% endvideo %}
 
 不能看Y站的请移步[B站](https://www.bilibili.com/video/BV1iy4y1h7R6/)
 

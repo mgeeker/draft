@@ -1,8 +1,12 @@
 # 安装黑苹果教程
 
-- [同步视频演示](https://www.youtube.com/watch?v=jSErmsLlRA0)
-- 不能看Y站请移步[B站](https://www.bilibili.com/video/BV1xp4y1H7Ws/)
-- FEI文件在这里 [https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K](https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K)
+### 视频
+
+{% video %}https://www.youtube.com/watch?v=jSErmsLlRA0{% endvideo %}
+
+不能看Y站请移步[B站](https://www.bilibili.com/video/BV1xp4y1H7Ws/)
+
+FEI文件在这里 [https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K](https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K)
 
 本文主要针对Intel Coffee Lake 平台的完美黑苹果系统安装教程，本文会详细讲解如何使用官方的MacOS Big Sur安装包自己创建启动U盘和定制本机的EFI文件（使用Gentoo的人貌似不来个make menuconfig晚上都睡不着。楼主家的open wrt都是make menuconfig，自己编译的固件。今天有了这台机器，以后升级固件就省事了）
 

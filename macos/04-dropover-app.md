@@ -1,8 +1,11 @@
 ## dropover
 
 ## 视频
-- [Y站](https://www.youtube.com/watch?v=QyKfjSmUdUk)
-- [B站](https://www.bilibili.com/video/BV1jv411h7ry/)
+
+
+{% video %}https://www.youtube.com/watch?v=QyKfjSmUdUk{% endvideo %}
+
+看不了的请看[B站](https://www.bilibili.com/video/BV1jv411h7ry/)
 
 ### 背景
 MacOS系统，在用户目录里拖动文件是移动文件，而大部的时候我们目标目录是没有打开，或是很多人并不知道怎么开两个finder
