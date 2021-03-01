@@ -9,6 +9,8 @@
 
 [![10 minutes fly](./Resources/02-cover.png)](https://youtu.be/WINXNeTMulU "youtube")
 
+不能看Y站的请移步[B站](https://www.bilibili.com/video/BV1iy4y1h7R6/)
+
 ### Calendar
 - 订阅日历
 - 中国节假日 https://p10-calendars.icloud.com/holiday/CN_zh.ics

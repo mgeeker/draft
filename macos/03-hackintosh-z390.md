@@ -1,20 +1,25 @@
 # 安装黑苹果教程
 
+- [同步视频演示](https://www.youtube.com/watch?v=jSErmsLlRA0)
+- 不能看Y站请移步[B站](https://www.bilibili.com/video/BV1xp4y1H7Ws/)
+- FEI文件在这里 [https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K](https://github.com/mgeeker/HACKINTOSH-Z390-I-AORUS-PRO-WIFI-i5-9600K)
+
 本文主要针对Intel Coffee Lake 平台的完美黑苹果系统安装教程，本文会详细讲解如何使用官方的MacOS Big Sur安装包自己创建启动U盘和定制本机的EFI文件（使用Gentoo的人貌似不来个make menuconfig晚上都睡不着。楼主家的open wrt都是make menuconfig，自己编译的固件。今天有了这台机器，以后升级固件就省事了）
 
-### 声明
-对于黑苹果的安装，本人没有创作什么的程序玩法和知识，也没有为github上贡献什么commit，只是将网上的知识学习了一遍，自己安装了自己的黑苹果，然后把过程分享出来了，以下是楼主参考的内容：
+### 参考资料
+对于黑苹果的安装，楼主不是自己搞的，是参考以下教程的内容：
 - [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
-- 来自司波图先生的[Intel Coffee Lake平台完美黑苹果系统安装教程](https://www.youtube.com/watch?v=Lu6Kmz5aDhY)，楼主觉得司波图先生的最容易懂
-- [GPU Buyers Guide](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus)
-- 苹果小兵[精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
 
-在此特别鸣谢这些大佬，大佬很赞！！！！
 
 ### 背景
-因为疫情的原因，春节不能离开上海，7天的时间没有什么事情可以做，就想给自己配一个台式电脑。家里的笔记本MacBook Pro都还是2015款的，性能堪忧。楼主最喜欢的电脑应该是iMac 27‘的系列了，可惜为了照顾老婆可以一起使用，不得不支持到Windows。 iMac装Windows感觉是一种罪恶，所以理想方按是配一个Windows装Mac。为了省点钱，楼主直接某鱼+某宝+某多解决硬件~~~
+因为需要一台Windows偶尔玩一下《微软模拟飞行2020》但是平时工作又在MacOS下，所以打算配一台itx小主机，装个Windows 10再黑个苹果。这样即满足工作需要，又满足娱乐需求。
 
 ### 硬件选择
+关于黑苹果的硬件件选择可以参考:
+* [GPU Buyers Guide](https://dortania.github.io/GPU-Buyers-Guide/#a-quick-refresher-with-nvidia-and-webdrivers)
+* [Wireless Byers Guide](https://dortania.github.io/Wireless-Buyers-Guide/)
+* [Anti Hardware Byers Guide](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/)
+
 
 |  | 型号   | 价格   | URL| | 到货 |
 | ---------- | -------------            | -------- | ---- | ---|---|
@@ -37,16 +42,9 @@
 
 至于为什么这样选硬件，楼主不想多言了，要搞黑苹果不是什么硬件都能搞的，不是什么硬件都能搞的，不是什么硬件都能搞的，重要的事情说三遍~~~~
 
-关于黑苹果的硬件件选择可以参考:
-* [GPU Buyers Guide](https://dortania.github.io/GPU-Buyers-Guide/#a-quick-refresher-with-nvidia-and-webdrivers)
-* [Wireless Byers Guide](https://dortania.github.io/Wireless-Buyers-Guide/)
-* [Anti Hardware Byers Guide](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/)
-
 *硬盘当然是要支持国产咯:)*
 
 买AM4的水冷散热是因为楼主买的机箱特别小，itx主板，大的风扇都放不进去，正常的水冷也装不进去（只有风扇是9CM的才能装），所以某宝买到一个AM4接口的，所以才需要转换器。再者9600K不买个水冷，我也不敢超啊~~
-
-本来楼主想买一个i7-9700k + Sapphire Rx5700xt 可是一看价格，再看看家里两只四脚吞金兽，楼主顿时觉得i5-9600k + rx570也行了:)
 
 
 ### 主板上加装BCM的Wifi & Bluetooth
@@ -120,8 +118,11 @@
 - ACPI: Advanced Configuration & Power Interface 高级配置和电源接口，包含很多表格
 
 #### 制作ACPI文件
+- 先看看我们需要解决哪几个补丁
+![SSDTs](Resources/02-ssdt-list.png "SSDTs")
+
+
 - 详细的直接看这个文档，照做就好了 [Getting Started With ACPI](https://dortania.github.io/Getting-Started-With-ACPI/)
-- 在左边的菜单里找 Methods -> SSDT: The easy way
 - 下载[SSDT Time](https://github.com/corpnewt/SSDTTime) 
 - 运行SSDTTime.bat
 ![SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/assets/img/ssdttime.54f2ba0d.png "SSDTTime")
@@ -159,6 +160,8 @@
 
 #### 制作 U盘 & 安装 MacOS Big Sur
 - 下载 MacOS big sur，并制作启动U盘（U盘使用GPT分区，会自动分一个EFI分区，这个很重要）
+  - 如果是苹果机：[官方](https://support.apple.com/zh-cn/HT201372)
+  - 如果是Windows: [gibMacOS](https://github.com/corpnewt/gibMacOS)
 - 通过MountEFI把你的U盘的EFI分区Mount进来，把EFI目录复制进去
 
 好，到此，如果你之前的操作没有什么问题的话，你的U盘应该可以启动电脑安装了（电脑硬盘分区也是GPT，因为需要EFI分区）。。。在电脑安装重启之后，使用一个WINPE启动电脑，把U盘里的EFI分区COPY到硬盘的EFI分区里，再选择硬盘直接启动继续安装。。。
