@@ -3,14 +3,16 @@
     "description": "这只是一个手稿",
     "language": "zh-hans",
     "styles": {
-        "website": "assets/continuum/cp.css"
+        "website": "src/gitbook-slate.css"
     },
     "theme-default": {
         "showLevel": true
     },
     "plugins": [
         "gtag",
-        "page-treeview"
+        "page-treeview",
+        "expandable-chapters",
+        "theme-comscore"
     ],
     "pluginsConfig": {
         "gtag": {
