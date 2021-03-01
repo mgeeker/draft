@@ -1,6 +1,8 @@
 { 
     "gitbook": ">=3.2.3",
-    "description": "这只是一个手稿",
+    "title": "MacGeeker手稿，IT技术，Youtube运营",
+    "author": "MacGeeker",
+    "description": "MacGeeker手稿，IT技术分享，MacOS big sur使用，Youtube运营，程序员小哥哥的账务技能",
     "language": "zh-hans",
     "styles": {
         "website": "src/gitbook-slate.css"
