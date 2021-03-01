@@ -16,7 +16,8 @@
         "video",
         "chinese-video",
         "flexible-alerts",
-        "code"    
+        "code",
+        "back-to-top-button"
     ],
     "pluginsConfig": {
         "gtag": {
