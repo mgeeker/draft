@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://draft.macgeeker.com/</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/macos/01-soft-alfred.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/macos/02-calender-app.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/macos/03-hackintosh-z390.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/macos/04-dropover-app.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/macos/05-terminal-junior.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/youtuber/01-register-google.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/youtuber/02-setup-website.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/MFS/01-10-minutes-fly.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/MFS/02-cold-cabin-fly.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/MFS/03-landing-pudong-at-night.html</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://draft.macgeeker.com/.</loc>
+  <lastmod>2021-03-02T04:43:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
