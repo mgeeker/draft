@@ -9,7 +9,8 @@
   * [05.Terminal初级技能](macos/05-terminal-junior.md)
 
 * Youtube实战
-  * [01. 注册Google帐户(Youtube)](./youtuber/01-register-google.md)
+  * [01.注册Google帐户(Youtube)](./youtuber/01-register-google.md)
+  * [02.建立手稿站点](./youtuber/02-setup-website.md)
 
 * Microsoft Flight Simulator
   * [01.十分钟速飞](MFS/01-10-minutes-fly.md)
